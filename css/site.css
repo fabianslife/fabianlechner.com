@@ -76,10 +76,10 @@ picture>source{display:none}
 
 .topics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
 a.topic{text-decoration:none;display:block}
-.topic img{width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(.85);transition:opacity .3s}
+.topic img{width:100%;aspect-ratio:3/2;object-fit:cover;filter:saturate(.85);transition:opacity .3s}
 a.topic:hover img{opacity:.88}
 a.topic:hover h3{color:var(--acc)}
-.topic h3{margin-top:18px}
+.topic h3{margin-top:14px;font-size:20px}
 .topic p{margin-top:8px;color:var(--grey);font-size:15px}
 
 .rows{border-top:1px solid var(--rule)}
@@ -260,7 +260,7 @@ footer a:hover{color:#fff}
  footer .wrap{grid-template-columns:1fr}
 }
 @media(max-width:560px){
- .topics{grid-template-columns:1fr}.topic img{aspect-ratio:4/3}
+ .topics{grid-template-columns:1fr}.topic img{aspect-ratio:16/9}
  .year li,.publist li{grid-template-columns:56px minmax(0,1fr)}
  .tlogo,.year .k,.publist .k:empty{display:none}
  .publist a.k{grid-column:2}
@@ -295,8 +295,8 @@ footer a:hover{color:#fff}
 .srun::-webkit-scrollbar{display:none}
 .srun.dragging{cursor:grabbing;user-select:none}
 .srun.dragging img{pointer-events:none}
-.strack{display:flex;gap:12px;width:max-content;padding:0 12px}
-.strack figure{position:relative;flex:none;margin:0;overflow:hidden;border-radius:2px;background:#1a1f2b}
+.strack{display:flex;gap:0;width:max-content}
+.strack figure{position:relative;flex:none;margin:0;overflow:hidden}
 .strack img{height:clamp(150px,15vw,210px);width:auto;filter:saturate(.9)}
 .strack figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 12px 10px;font-size:13px;line-height:1.35;color:#fff;background:linear-gradient(0deg,rgba(10,13,20,.85),transparent)}
 /* Blog-Highlights */
@@ -314,3 +314,6 @@ footer a:hover{color:#fff}
 h2.more{font-size:clamp(28px,2.6vw,36px);margin-bottom:24px}
 @media(max-width:860px){.hl{grid-template-columns:1fr}.hlc.big{grid-row:auto}.hlc.big img{aspect-ratio:16/10}}
 @media(prefers-reduced-motion:reduce){.run{animation:none}.lane{overflow-x:auto}}
+
+.topics-band{padding:clamp(56px,6vw,96px) 0}
+.srun{-webkit-mask:none;mask:none}
