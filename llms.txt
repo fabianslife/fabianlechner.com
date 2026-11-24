@@ -24,12 +24,13 @@ Kontakt für Vortragsanfragen: fabian-lechner@outlook.com
 - 2026: Podium: KI-Strategie, Kompetenz und Transfer (DGKIMED Summit, Berlin, Charité)
 - 2026: Boehringer Ingelheim, Denkfabrik Diabetes, Herz und Niere (Boehringer Ingelheim, Denkfabrik Diabetes, Herz und Niere, Frankfurt am Main)
 - 2026: KI in der Hausarztpraxis (DGIM)
-- 2026: Digital Rheumatology Days (Digital Rheumatology Days, Berlin)
+- 2026: 9th Digital Rheumatology Days (9th Digital Rheumatology Days, Berlin)
+- 2026: Leitlinie KI (132. DGIM-Kongress, Symposium der AG Hausärztliche Internistinnen und Internisten, Wiesbaden)
 - 2026: Podium (Recare AI Summit, Berlin)
 - 2025: KI in der Diabetologie (DDG, 106. Kurs Klinische Diabetologie)
 - 2025: KI-Lösungen bei AGAPLESION (TIMETOACT GROUP Insights, Köln)
 - 2025: KI und Robotik (Siemens Healthineers, Referenzkundenworkshop)
-- 2025: KI in der Medizin: Zusammenarbeit von Mensch und Maschine (BKK Tag)
+- 2025: KI in der Medizin: Zusammenarbeit von Mensch und Maschine (BKK Tag, BKK Landesverband Bayern, München)
 - 2025: KI in der Diabetologie – Heute und Morgen (Novo Nordisk, Spezialistentreffen Diabetologie, Radebeul)
 - 2025: Praxischeck KI (DRG-Forum, Berlin)
 - 2025: DiaSorin Symposium (DiaSorin Symposium, Frankfurt am Main)
@@ -37,7 +38,6 @@ Kontakt für Vortragsanfragen: fabian-lechner@outlook.com
 - 2024: Die Zukunft der Diabetesversorgung (diabetesDE, Meilensteine der modernen Diabetologie, Berlin)
 - 2024: KI – Eine Revolution in der Medizin? (DDG-Präsenz, Berlin)
 - 2024: Die Zukunft der Diabetologie – KI im Dienste des Patienten (Novo Nordisk, Zukunftsforum Diabetes, Mainz)
-- 2024: Robotik & KI im Labor (Siemens Healthineers, DGKL, Bremen)
 
 ## Blog
 - [11 Start-ups, 3 Minuten pro Pitch: der AGAthon AI-Pitch in Darmstadt](https://fabianlechner.com/blog/agathon-ai-pitch-2026.html): Welche KI wird die Gesundheitsversorgung wirklich verändern? Eindrücke vom zweiten AI-Pitch der AGAPLESION am Klinikum Darmstadt.
@@ -83,7 +83,7 @@ Kontakt für Vortragsanfragen: fabian-lechner@outlook.com
 - Dezember 2025: Wirtschaftsinformatik: Mit KI die Medizinbranche verbessern (Podcast der FH Aachen, Folge 23) https://open.spotify.com/episode/2NC6aFshyxQFuVQV6Zt3JU
 - November 2026: Exklusivinterview: Strategischer KI-Ausbau bei AGAPLESION (ICT&health) https://www.icthealth.de/nachrichten/exklusivinterview-strategischer-ki-ausbau-bei-agaplesion
 - November 2025: AGAPLESION veranstaltet Hackathon für klinische KI-Lösungen (kma online, AGAthon 2025, mit Fabian Lechner in der Jury) https://www.kma-online.de/aktuelles/it-digital-health/detail/agaplesion-veranstaltet-hackathon-fuer-klinische-ki-loesungen-54643
-- o. D.: Kurzvideo auf YouTube (YouTube) https://www.youtube.com/shorts/pPmtmmylO0A
+- o. D.: Vorstellung des Zentralen Dienstes für Künstliche Intelligenz (AGAPLESION gAG, YouTube) https://www.youtube.com/shorts/pPmtmmylO0A
 - Juni 2025: Agaplesion: Fabian Lechner leitet Zentralen Dienst für Künstliche Intelligenz (kma online) https://www.kma-online.de/aktuelles/it-digital-health/detail/agaplesion-fabian-lechner-leitet-zentralen-dienst-fuer-kuenstliche-intelligenz-54121
 - Juni 2025: AGAPLESION: Fabian Lechner leitet neue KI-Einheit (medinfoweb) https://medinfoweb.de/agaplesion-fabian-lechner-leitet-neue-ki-einheit-wissenschaft-trifft-versorgungspraxis/
 - November 2025: medlounge 2025: KI in der Medizin (Gesundheitswirtschaft Rhein-Main, Frankfurt) https://gesundheitswirtschaft-rhein-main.de/Veranstaltungen/medlounge-2025-ki-in-der-medizin/
