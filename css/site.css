@@ -332,3 +332,5 @@ h2.more{font-size:clamp(28px,2.6vw,36px);margin-bottom:24px}
 .pagehead:not(.noimg):not(.posthead){height:clamp(460px,56vh,560px);padding:0 0 clamp(44px,5vw,72px);display:flex;align-items:flex-end}
 .pagehead:not(.noimg):not(.posthead) .wrap{width:100%}
 @media(max-width:860px){.pagehead:not(.noimg):not(.posthead){height:520px}.pagehead .lead{font-size:17px}}
+.psub{font-size:18px;font-weight:400;margin:8px 0 14px}
+.publist+.psub{margin-top:44px}
