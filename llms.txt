@@ -8,7 +8,8 @@ Kontakt für Vortragsanfragen: fabian-lechner@outlook.com
 - [Start](https://fabianlechner.com/): Überblick, Themen, nächste Termine
 - [Vorträge](https://fabianlechner.com/vortraege.html): Formate (Keynote, CME-Fortbildung, Panel, Workshop) und ausgewählte Vorträge
 - [Medien](https://fabianlechner.com/medien.html): Fernsehen, Podcasts, Interviews, Presse
-- [Über mich](https://fabianlechner.com/ueber-mich.html): Werdegang, Projekte, Publikationen, häufige Fragen
+- [Über mich](https://fabianlechner.com/ueber-mich.html): Werdegang, Projekte, Publikationen
+- [Häufige Fragen](https://fabianlechner.com/faq.html): Antworten zu Rolle, Forschung und Vortragsanfragen
 - [Blog](https://fabianlechner.com/blog/): Beiträge zu KI in der Medizin
 
 ## Themen
