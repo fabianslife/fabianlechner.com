@@ -64,7 +64,7 @@ picture>source{display:none}
 .logos .lead b{font-weight:300}
 .lgrid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0;border-top:1px solid var(--rule-d);border-left:1px solid var(--rule-d)}
 .lgrid li{display:grid;place-items:center;height:92px;padding:14px 18px;border-right:1px solid var(--rule-d);border-bottom:1px solid var(--rule-d)}
-.lgrid img{height:calc(var(--h) * .82);max-height:40px;width:auto;max-width:100%;filter:brightness(0) invert(1);opacity:.7}
+.lgrid img{height:calc(var(--h) * .82);max-height:40px;width:auto;max-width:100%;object-fit:contain;filter:brightness(0) invert(1);opacity:.7}
 .lgrid img.keep{filter:none;opacity:.8}
 .lgrid span{font-size:15px;font-weight:400;color:rgba(255,255,255,.66);text-align:center;line-height:1.3}
 
