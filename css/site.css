@@ -334,3 +334,6 @@ h2.more{font-size:clamp(28px,2.6vw,36px);margin-bottom:24px}
 @media(max-width:860px){.pagehead:not(.noimg):not(.posthead){height:520px}.pagehead .lead{font-size:17px}}
 .psub{font-size:18px;font-weight:400;margin:8px 0 14px}
 .publist+.psub{margin-top:44px}
+.sopen:focus,.sopen:focus-visible,.lbox,.lbox:focus,.lbox :focus,.lbox :focus-visible{outline:none}
+.lclose{border:0;background:none}
+.lclose:hover{opacity:.7}
