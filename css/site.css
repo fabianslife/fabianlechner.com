@@ -139,13 +139,18 @@ a.card:hover h3{color:var(--acc)}
 .tlist b{display:block;font-weight:400;font-size:18px}
 .tlist small{display:block;color:var(--grey);font-size:15px;line-height:1.5}
 .tlist a:hover b{color:var(--acc)}
-.org{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,4vw,56px)}
-.org h3{font-size:18px;font-weight:400;margin-bottom:12px}
+.org{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);max-width:1040px}
+.org h2{font-size:clamp(24px,2.2vw,30px);margin-bottom:14px}
+.more-bio{margin-top:22px;border-top:1px solid var(--rule);padding-top:14px}
+.more-bio summary{cursor:pointer;font-weight:400;padding:4px 0}
+.more-bio .bio{margin-top:10px}
+.press img.cut{object-fit:contain;background:#F5F6F8}
+.sub.small{font-size:14px;margin-top:18px}
 .org .bio{color:#3A3F4A;font-size:16px;line-height:1.65;hyphens:auto}
 .org .btn{margin-top:16px}
 .press{list-style:none;margin:0;padding:0;display:grid;gap:14px}
-.press a{display:grid;grid-template-columns:120px minmax(0,1fr);gap:14px;align-items:center;text-decoration:none}
-.press img{width:120px;aspect-ratio:3/2;object-fit:cover;border-radius:2px}
+.press a{display:grid;grid-template-columns:90px minmax(0,1fr);gap:14px;align-items:center;text-decoration:none}
+.press img{width:90px;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;border-radius:2px}
 .press span{font-weight:400}
 .press small{display:block;color:var(--grey);font-weight:300;font-size:14px}
 .press a:hover span{color:var(--acc)}

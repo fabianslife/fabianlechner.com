@@ -6,7 +6,8 @@ Kontakt für Vortragsanfragen: fabian-lechner@outlook.com
 
 ## Seiten
 - [Start](https://fabianlechner.com/): Überblick, Themen, nächste Termine
-- [Vorträge](https://fabianlechner.com/vortraege.html): Ausgewählte Vorträge, Formate (Keynote, CME-Fortbildung, Panel, Workshop), Kurzbiografie und Pressefotos
+- [Vorträge](https://fabianlechner.com/vortraege.html): Ausgewählte Vorträge, Formate (Keynote, CME-Fortbildung, Panel, Workshop) und Themen
+- [Für Veranstalter](https://fabianlechner.com/veranstalter.html): Kurzbiografie und Pressefotos
 - [Medien](https://fabianlechner.com/medien.html): Fernsehen, Podcasts, Interviews, Presse
 - [Über mich](https://fabianlechner.com/ueber-mich.html): Werdegang, Projekte, Publikationen
 - [Häufige Fragen](https://fabianlechner.com/faq.html): Antworten zu Rolle, Forschung und Vortragsanfragen
