@@ -16,3 +16,13 @@ if(r.ok&&String(j.success)!=='false'){f.reset();st.textContent='Danke, Ihre Anfr
 catch(err){st.innerHTML='Das hat leider nicht geklappt. Bitte schreiben Sie direkt an <a href="mailto:'+document.getElementById('mail').textContent+'">'+document.getElementById('mail').textContent+'</a>.'}
 b.disabled=false})}
 }
+
+document.querySelectorAll('[data-carousel]').forEach(function (c) {
+  var t = c.querySelector('.ctrack'), p = c.querySelector('.cprev'), n = c.querySelector('.cnext');
+  function upd() { p.disabled = t.scrollLeft < 4; n.disabled = t.scrollLeft + t.clientWidth > t.scrollWidth - 4; }
+  p.addEventListener('click', function () { t.scrollBy({ left: -t.clientWidth * 0.8 }); });
+  n.addEventListener('click', function () { t.scrollBy({ left: t.clientWidth * 0.8 }); });
+  t.addEventListener('scroll', upd, { passive: true });
+  t.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight') { e.preventDefault(); n.click(); } if (e.key === 'ArrowLeft') { e.preventDefault(); p.click(); } });
+  window.addEventListener('resize', upd); upd();
+});
