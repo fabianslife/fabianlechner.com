@@ -1,16 +1,19 @@
 # Fabian Lechner
 
-> Fabian Lechner leitet den Zentralen Dienst KI & Daten bei AGAPLESION gAG (Frankfurt am Main), promoviert am Institut für Digitale Medizin der Philipps-Universität Marburg / UKGM zu großen Sprachmodellen in der Medizin und ist Speaker für KI in der Medizin. Seit 2022 über 85 Vorträge, Panels und Workshops, viele davon CME-zertifiziert. Sprachen: Deutsch, Englisch, Italienisch. Wohnort: Marburg.
+> Fabian Lechner leitet den Zentralen Dienst KI & Daten bei AGAPLESION, einem der großen gemeinnützigen Klinikverbünde in Deutschland. Er promoviert an der Philipps-Universität Marburg zu großen Sprachmodellen in der Medizin. Seit 2022 hat er über 85 Vorträge, Panels und Workshops zu KI in der Medizin gehalten, viele davon CME-zertifiziert. Wohnort: Marburg.
 
 Kontakt für Vortragsanfragen: fabian-lechner@outlook.com
 
 ## Seiten
 - [Start](https://fabianlechner.com/): Überblick, Themen, nächste Termine
-- [Vorträge](https://fabianlechner.com/vortraege.html): Formate (Keynote, CME-Fortbildung, Panel, Workshop) und ausgewählte Vorträge
+- [Vorträge](https://fabianlechner.com/vortraege.html): Ausgewählte Vorträge, Formate (Keynote, CME-Fortbildung, Panel, Workshop), Kurzbiografie und Pressefotos
 - [Medien](https://fabianlechner.com/medien.html): Fernsehen, Podcasts, Interviews, Presse
 - [Über mich](https://fabianlechner.com/ueber-mich.html): Werdegang, Projekte, Publikationen
 - [Häufige Fragen](https://fabianlechner.com/faq.html): Antworten zu Rolle, Forschung und Vortragsanfragen
 - [Blog](https://fabianlechner.com/blog/): Beiträge zu KI in der Medizin
+
+## Kurzbiografie
+Fabian Lechner leitet den Zentralen Dienst KI & Daten bei AGAPLESION, einem der großen gemeinnützigen Klinikverbünde in Deutschland. Den Bereich mit Teams für KI, Daten, Anwendungen und Business Intelligence hat er 2025 aufgebaut; zuvor beriet er den Vorstand als Scientific Advisor. Parallel promoviert er an der Philipps-Universität Marburg zur Anpassung und Bewertung großer Sprachmodelle für medizinische Anwendungen. Zu seinen Arbeiten gehören der virtuelle Doktor in der Telefonzelle auf der Bundesgartenschau 2023, leitlinienbasierte Chatbots für die Brustkrebsversorgung und der rheumatologische Benchmark RheumBench. Er studierte Business Studies und Information Technology an der FH Aachen sowie Information Systems an der Philipps-Universität Marburg. Seit 2022 hat er über 85 Vorträge, Panels und Workshops für Fachgesellschaften wie DDG und DGIM, Kliniken, Krankenkassen und die forschende Industrie gehalten, viele davon CME-zertifiziert. Er spricht Deutsch, Englisch und Italienisch.
 
 ## Themen
 - [KI in der Diabetologie](https://fabianlechner.com/themen/diabetologie.html)
@@ -37,58 +40,58 @@ Kontakt für Vortragsanfragen: fabian-lechner@outlook.com
 - 2025: DiaSorin Symposium (DiaSorin Symposium, Frankfurt am Main)
 - 2025: Zukunft ist jetzt – KI-gestützte Diagnostik und Therapie (Lilly, DMP-Tagung, Bonn)
 - 2024: Die Zukunft der Diabetesversorgung (diabetesDE, Meilensteine der modernen Diabetologie, Berlin)
-- 2024: KI – Eine Revolution in der Medizin? (DDG-Präsenz, Berlin)
+- 2024: Künstliche Intelligenz – eine Revolution in der Medizin? (DDG-Präsenz, Berlin)
 - 2024: Die Zukunft der Diabetologie – KI im Dienste des Patienten (Novo Nordisk, Zukunftsforum Diabetes, Mainz)
 
 ## Blog
-- [11 Start-ups, 3 Minuten pro Pitch: der AGAthon AI-Pitch in Darmstadt](https://fabianlechner.com/blog/agathon-ai-pitch-2026.html): Welche KI wird die Gesundheitsversorgung wirklich verändern? Eindrücke vom zweiten AI-Pitch der AGAPLESION am Klinikum Darmstadt.
+- [Elf Start-ups beim AGAthon AI-Pitch in Darmstadt](https://fabianlechner.com/blog/agathon-ai-pitch-2026.html): Drei Minuten pro Pitch, Themen von Pflege bis OP-Dokumentation: Eindrücke vom zweiten AI-Pitch der AGAPLESION am Klinikum Darmstadt.
 - [KI, die im Pflegealltag ankommt](https://fabianlechner.com/blog/ki-in-der-pflege.html): Beim Deutschen Pflegetag in Berlin haben wir gezeigt, wie Sprach-KI in der Pflegedokumentation entlastet: voize, integriert in ORBIS von Dedalus.
-- [Sprachmodelle in der Klinik: Was wir in drei Jahren gelernt haben](https://fabianlechner.com/blog/sprachmodelle-in-der-klinik.html): Vom Feintuning früher GPT-Modelle über Retrieval Augmented Generation bis zur echten Station. Eine ehrliche Zwischenbilanz aus Forschung und Krankenhausalltag.
+- [Drei Jahre Sprachmodelle in der Klinik](https://fabianlechner.com/blog/sprachmodelle-in-der-klinik.html): Vom Feintuning früher GPT-Modelle über Retrieval Augmented Generation bis auf die Station. Eine Zwischenbilanz aus Forschung und Krankenhausalltag.
 - [Von der Betriebswirtschaft zur medizinischen KI](https://fabianlechner.com/blog/von-der-bwl-zur-medizinischen-ki.html): Zurück an der FH Aachen: über einen Weg, den ich selbst nicht erwartet hätte, und warum interdisziplinäre Profile heute wichtiger sind denn je.
-- [KI in der Diabetologie: Wo der Nutzen heute schon liegt](https://fabianlechner.com/blog/ki-in-der-diabetologie.html): Kaum ein Fach erzeugt so viele Daten pro Patient wie die Diabetologie. Wo KI hier wirklich hilft, und wo man vorsichtig bleiben sollte.
-- [Der virtuelle Doktor in der Telefonzelle](https://fabianlechner.com/blog/der-virtuelle-doktor.html): Auf der Bundesgartenschau 2023 konnten Besucherinnen und Besucher mit einem KI-Arzt sprechen. Was wir dabei über Technik und Vertrauen gelernt haben.
+- [Wo KI in der Diabetologie heute schon hilft](https://fabianlechner.com/blog/ki-in-der-diabetologie.html): Kaum ein Fach erzeugt so viele Daten pro Patient wie die Diabetologie. Wo KI hier hilft und wo man vorsichtig bleiben sollte.
+- [Der virtuelle Doktor in der Telefonzelle](https://fabianlechner.com/blog/der-virtuelle-doktor.html): Auf der Bundesgartenschau 2023 konnten Besucherinnen und Besucher mit einem virtuellen Doktor sprechen. Was wir dabei über Technik und Vertrauen gelernt haben.
 - [RheumBench: Was Sprachmodelle in der Rheumatologie können und was nicht](https://fabianlechner.com/blog/rheumbench.html): Prüfungsfragen sagen wenig über den Alltag. Deshalb haben wir einen Benchmark mit rheumatologischen Fällen gebaut, den Fachärztinnen und Fachärzte bewerten.
-- [Leitlinien als Gedächtnis: Retrieval Augmented Generation in der Brustkrebsversorgung](https://fabianlechner.com/blog/rag-brustkrebs.html): Warum ein kleines Sprachmodell mit dem richtigen Leitlinienwissen mehr hilft als ein großes Modell ohne Quellen.
-- [KI ohne Daten ist sinnfrei](https://fabianlechner.com/blog/daten-und-ki.html): Alle reden über KI-Agenten. Echten Nutzen gibt es aber nur, wenn KI-Strategie und Datenstrategie zusammen gedacht werden.
+- [Retrieval Augmented Generation in der Brustkrebsversorgung](https://fabianlechner.com/blog/rag-brustkrebs.html): Warum ein kleines Sprachmodell mit dem richtigen Leitlinienwissen mehr hilft als ein großes Modell ohne Quellen.
+- [KI ohne Daten ist sinnfrei](https://fabianlechner.com/blog/daten-und-ki.html): Alle reden über KI-Agenten. Nutzen entsteht aber erst, wenn KI-Strategie und Datenstrategie zusammen gedacht werden.
 - [Das größte Hindernis ist nicht mehr die Technik](https://fabianlechner.com/blog/interoperabilitaet.html): Eine Woche DMEA und der Recare AI Summit in Berlin: Viele Technologien schaffen den Weg in die Klinik. Was fehlt, sind Schnittstellen.
 - [DokPro: Eine KI-Kabine für die Notaufnahme](https://fabianlechner.com/blog/dokpro-notaufnahme.html): Wartezeit sinnvoll nutzen: Wie ein Avatar Patientinnen und Patienten durch die Anamnese führt und dem Behandlungsteam einen strukturierten Bericht übergibt.
-- [Zwei Tage, ein Prototyp: Patientenaufklärung neu gedacht](https://fabianlechner.com/blog/bc-video-prototyp.html): Wie schnell lassen sich Ideen heute in funktionierende Software übersetzen? Ein Experiment zur Aufklärung bei Brustkrebs, entstanden mit Claude Code und Azure.
+- [Ein Prototyp für die Patientenaufklärung in zwei Tagen](https://fabianlechner.com/blog/bc-video-prototyp.html): Wie schnell lassen sich Ideen heute in funktionierende Software übersetzen? Ein Experiment zur Aufklärung bei Brustkrebs, entstanden mit Claude Code und Azure.
 - [Raus aus der Universität, rein in die Praxis](https://fabianlechner.com/blog/vom-drg-forum-in-die-praxis.html): Vor einem Jahr stand ich zum ersten Mal beim DRG-Forum auf der Bühne. Auf der Rückfahrt im Zug fiel eine Entscheidung. Jetzt gab es dafür den Vordenker Award.
 - [Kann ChatGPT bei medizinethischen Entscheidungen helfen?](https://fabianlechner.com/blog/chatgpt-ethik.html): Wenn es um Therapiebegrenzung oder den mutmaßlichen Willen geht, gibt es selten eine richtige Antwort. Was Sprachmodelle hier beitragen können.
-- [Sprachmodelle, die Bilder lesen: Ein Test in der Dermatologie](https://fabianlechner.com/blog/dermatologie-bilder.html): Multimodale Modelle versprechen, auch Fotos zu beurteilen. Wir haben geprüft, wie gut das bei Hautbefunden funktioniert.
+- [Wie gut Sprachmodelle Hautbefunde lesen](https://fabianlechner.com/blog/dermatologie-bilder.html): Multimodale Modelle versprechen, auch Fotos zu beurteilen. Wir haben geprüft, wie gut das bei Hautbefunden funktioniert.
 - [Röntgenbilder in der Notaufnahme schneller auswerten](https://fabianlechner.com/blog/azmed-roentgen-notaufnahme.html): Im hr-Magazin maintower haben Oberärztin Sabine Geck und ich das Projekt AZmed am Klinikum Elisabethenstift Darmstadt vorgestellt.
 
 ## Publikationen
-- 2026: RheumBench: A Specialist-Validated Rubric-Based Benchmark, Research Square. https://www.researchsquare.com/article/rs-10825548/v1
-- 2025: Trustworthy Enough? Examining Trustworthiness Assessments of Large Language Model-Based Medical Agents, Technology, Mind, and Behavior. https://doi.org/10.1037/tmb0000164
-- 2025: Harnessing Large Language Models for Rheumatic Disease Diagnosis, International Journal of Rheumatic Diseases. https://doi.org/10.1111/1756-185X.70124
-- 2025: Machbarkeit einer multimodalen KI-Plattform in der Notaufnahme: Pilotstudie zu DokPro, Frontiers in Digital Health. https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1657583/full
-- 2025: Sprachmodelle bei der Interpretation dermatologischer Bilder, Diagnosis. https://pubmed.ncbi.nlm.nih.gov/40420705/
-- 2025: Sprachmodelle und klassische Diagnosesysteme bei seltenen rheumatischen Erkrankungen, EULAR Rheumatology Open. https://pubmed.ncbi.nlm.nih.gov/42368386/
-- 2025: Nutzung von ChatGPT durch Medizinstudierende in Deutschland, JMIR Formative Research. https://pubmed.ncbi.nlm.nih.gov/41218187/
-- 2024: Small-Language-Model-Chatbot zur Entscheidungsunterstützung beim Mammakarzinom, Journal of Cancer Research and Clinical Oncology. https://doi.org/10.1007/s00432-024-05964-3
-- 2024: Öffentlich verfügbare Sprachmodelle bei komplexen Entscheidungen in der Brustkrebsversorgung, Archives of Gynecology and Obstetrics. https://pubmed.ncbi.nlm.nih.gov/38806945/
-- 2024: Nutzung und Wahrnehmung digitaler Gesundheitsanwendungen bei Internistinnen und Internisten, BMC Health Services Research. https://pubmed.ncbi.nlm.nih.gov/39506735/
-- 2023: Challenges of GPT-3-Based Conversational Agents for Healthcare, RANLP 2023. https://aclanthology.org/2023.ranlp-1.67
-- 2023: ChatGPT: Hilfe bei medizinethischen Entscheidungen?, Die Innere Medizin. https://pubmed.ncbi.nlm.nih.gov/37821756/
+- Lechner F, Bamberger J, Kremer P, et al. (2026). RheumBench: A Specialist-Validated Rubric-Based Benchmark for Evaluating Large Language Models in Rheumatology. Research Square (Preprint). https://doi.org/10.21203/rs.3.rs-10825548/v1
+- Russ P, Mross PM, Kräling G, Lechner F, et al. (2025). Feasibility of a multimodal AI-based clinical assessment platform in emergency care: an exploratory pilot study. Frontiers in Digital Health. https://doi.org/10.3389/fdgth.2025.1657583
+- Fußhöller A, Lechner F, Schlicker N, et al. (2025). Perceptions, Usage, and Educational Impact of ChatGPT Among Medical Students in Germany: Cross-Sectional Mixed Methods Survey. JMIR Formative Research. https://doi.org/10.2196/81484
+- Cirkel L, Lechner F, Henk LA, et al. (2025). Large language models for dermatological image interpretation – a comparative study. Diagnosis. https://doi.org/10.1515/dx-2025-0014
+- Kremer P, Schiebisch H, Lechner F, et al. (2025). Comparative analysis of large language models and traditional diagnostic decision support systems for rare rheumatic disease identification. EULAR Rheumatology Open. https://doi.org/10.1016/j.ero.2025.04.007
+- Schlicker N, Lechner F, Wehrle K, et al. (2025). Trustworthy enough? Examining trustworthiness assessments of large language model-based medical agents. Technology, Mind, and Behavior. https://doi.org/10.1037/tmb0000164
+- Lechner F, Kuhn S, Knitza J (2025). Harnessing Large Language Models for Rheumatic Disease Diagnosis: Advancing Hybrid Care and Task Shifting. International Journal of Rheumatic Diseases. https://doi.org/10.1111/1756-185X.70124
+- Griewing S, Lechner F, Gremke N, et al. (2024). Proof-of-concept study of a small language model chatbot for breast cancer decision support – a transparent, source-controlled, explainable and data-secure approach. Journal of Cancer Research and Clinical Oncology. https://doi.org/10.1007/s00432-024-05964-3
+- Cirkel L, Lechner F, Schlicker N, et al. (2024). Adoption and perception of prescribable digital health applications (DiGA) and the advancing digitalization among German internal medicine physicians: a cross-sectional survey study. BMC Health Services Research. https://doi.org/10.1186/s12913-024-11807-1
+- Griewing S, Knitza J, Boekhoff J, Hillen C, Lechner F, et al. (2024). Evolution of publicly available large language models for complex decision-making in breast cancer care. Archives of Gynecology and Obstetrics. https://doi.org/10.1007/s00404-024-07565-4
+- Lechner F, Lahnala A, Welch C, Flek L (2023). Challenges of GPT-3-Based Conversational Agents for Healthcare. RANLP, Varna. https://aclanthology.org/2023.ranlp-1.67/
+- Schmidt KW, Lechner F (2023). ChatGPT: Hilfe bei medizinethischen Entscheidungen?. Die Innere Medizin. https://doi.org/10.1007/s00108-023-01601-2
 
 ## Medien
 - April 2024: Die Charité: Hirschhausen – Medizin von morgen (Das Erste, mit Einblicken in die KI-Forschung in Marburg) https://www.uni-marburg.de/de/aktuelles/news/2024/medizinische-forschung-und-lehre-in-doku-zu-neuer-charite-staffel
 - Dezember 2025: AZmed: KI wertet Röntgenbilder in der Notaufnahme schneller aus (hr, maintower vom 11.12.2025, mit Oberärztin Sabine Geck, ab Minute 12:30) https://www.ardmediathek.de/video/maintower/maintower-vom-11-12-2025/hr/YWYzZGQ3YTAtODQxZC00ZTk3LWJlMDUtYWY5NzllMjFmOTJk
-- Juli 2023: Der virtuelle Arzt in der Telefonzelle (RON TV, Interview auf der Bundesgartenschau Mannheim)
+- Juli 2023: Der virtuelle Doktor in der Telefonzelle (RON TV, Interview auf der Bundesgartenschau Mannheim)
 - Juli 2023: ChatGPT: Der Arzt in der Telefonzelle (MEEDIA, über den Prototyp auf der BUGA 23) https://www.meedia.de/marken/generativeai-chatgpt-der-arzt-in-der-telefonzelle-e77de2f90c946c83adb769423b44e3c5
-- 2023: Telefon-Sprechstunde beim virtuellen Arzt: Was kann künstliche Intelligenz? (Die Rheinpfalz) https://www.rheinpfalz.de/lokal/ludwigshafen_artikel,-telefon-sprechstunde-beim-virtuellen-arzt-was-kann-k%C3%BCnstliche-intelligenz-_arid,5513502.html
+- Juni 2023: Telefon-Sprechstunde beim virtuellen Arzt: Was kann künstliche Intelligenz? (Die Rheinpfalz) https://www.rheinpfalz.de/lokal/ludwigshafen_artikel,-telefon-sprechstunde-beim-virtuellen-arzt-was-kann-k%C3%BCnstliche-intelligenz-_arid,5513502.html
 - Februar 2026: KI in der Medizin: Podiumsdiskussion der medlounge Rhein-Main (Hessisches Ärzteblatt 2/2026) https://www.laekh.de/heftarchiv/ausgabe/artikel/2026/februar-2026/kuenstliche-intelligenz-in-der-medizin-chance-risiken-und-aerztliche-verantwortung
 - Dezember 2025: Krankenhaus-IT: Keine Angst vor KI! (E-HEALTH-COM 6/2025, Bericht vom Kongress Meeting am Meer in Heiligendamm) https://e-health-com.de/fileadmin/user_upload/dateien/ePaper/EHC_6_2025_E-Paper.pdf
 - September 2025: KI in der Praxis: Compliance, Daten und echte Effizienzgewinne (Diagnose: Zukunft (Recare), Folge 7, mit Sebastian Polag) https://open.spotify.com/episode/0xBgyiNhO9JgmtbWz90Rml
 - Dezember 2025: Wirtschaftsinformatik: Mit KI die Medizinbranche verbessern (Podcast der FH Aachen, Folge 23) https://open.spotify.com/episode/2NC6aFshyxQFuVQV6Zt3JU
 - November 2026: Exklusivinterview: Strategischer KI-Ausbau bei AGAPLESION (ICT&health) https://www.icthealth.de/nachrichten/exklusivinterview-strategischer-ki-ausbau-bei-agaplesion
 - November 2025: AGAPLESION veranstaltet Hackathon für klinische KI-Lösungen (kma online, AGAthon 2025, mit Fabian Lechner in der Jury) https://www.kma-online.de/aktuelles/it-digital-health/detail/agaplesion-veranstaltet-hackathon-fuer-klinische-ki-loesungen-54643
-- o. D.: Vorstellung des Zentralen Dienstes für Künstliche Intelligenz (AGAPLESION gAG, YouTube) https://www.youtube.com/shorts/pPmtmmylO0A
+- Juni 2025: Vorstellung des Zentralen Dienstes für Künstliche Intelligenz (AGAPLESION gAG, YouTube) https://www.youtube.com/shorts/pPmtmmylO0A
 - Juni 2025: Agaplesion: Fabian Lechner leitet Zentralen Dienst für Künstliche Intelligenz (kma online) https://www.kma-online.de/aktuelles/it-digital-health/detail/agaplesion-fabian-lechner-leitet-zentralen-dienst-fuer-kuenstliche-intelligenz-54121
 - Juni 2025: AGAPLESION: Fabian Lechner leitet neue KI-Einheit (medinfoweb) https://medinfoweb.de/agaplesion-fabian-lechner-leitet-neue-ki-einheit-wissenschaft-trifft-versorgungspraxis/
 - November 2025: medlounge 2025: KI in der Medizin (Gesundheitswirtschaft Rhein-Main, Frankfurt) https://gesundheitswirtschaft-rhein-main.de/Veranstaltungen/medlounge-2025-ki-in-der-medizin/
-- 2025: Referent beim Structured Finance 2025 (FINANCE Magazin) https://www.finance-magazin.de/events/structured-finance/2025/referenten/fabian-lechner/
+- November 2025: Referent beim Structured Finance 2025 (FINANCE Magazin) https://www.finance-magazin.de/events/structured-finance/2025/referenten/fabian-lechner/
 - Juni 2023: ChatGPT in der Medizin – Hype, Hybris, Potential (ZTM Symposium, Referentenvorstellung) https://www.ztm.de/informieren/blog/referentenvorstellung-ztm-symposium-im-juni-fabian-lechner/
 - November 2024: Künstliche Intelligenz – eine Revolution in der Medizin? (Programm der DDG-Fortbildung Digitalisierung und Diabetestechnologie, Berlin) https://medical-tribune.de/fileadmin/user_upload/Programm_Berlin_DDG_091124.pdf
 - Mai 2024: Antrittsbesuch von Wissenschaftsminister Timon Gremmels in Marburg (Philipps-Universität Marburg) https://www.uni-marburg.de/de/aktuelles/news/2024/eine-sich-veraendernde-welt-verstehen
