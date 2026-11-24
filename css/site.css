@@ -43,9 +43,9 @@ img{max-width:100%;display:block}
 .burger{display:none}
 
 /* Start: Bühne */
-.hero{position:relative;min-height:clamp(640px,100svh,1000px);overflow:hidden;isolation:isolate;background:var(--night);color:#fff}
+.hero{position:relative;min-height:clamp(640px,100svh,1000px);overflow:hidden;isolation:isolate;color:#fff;background:radial-gradient(ellipse 42% 62% at 73% 58%,rgba(0,51,160,.62) 0%,rgba(0,51,160,.18) 55%,transparent 75%),radial-gradient(ellipse 34% 40% at 92% 12%,rgba(70,120,230,.22) 0%,transparent 70%),radial-gradient(ellipse 50% 45% at 18% 100%,rgba(0,51,160,.16) 0%,transparent 70%),linear-gradient(155deg,#0E1526 0%,var(--night) 55%,#080B12 100%)}
 .hero .bg{position:absolute;inset:0;z-index:-3;width:100%;height:100%;object-fit:cover;object-position:50% 20%;filter:blur(3px) saturate(.75) brightness(.45);transform:scale(1.04)}
-.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(10,13,20,.94) 0%,rgba(10,13,20,.78) 38%,rgba(10,13,20,.25) 70%,rgba(10,13,20,.55) 100%),linear-gradient(0deg,var(--night) 0%,transparent 30%)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(0deg,var(--night) 0%,transparent 26%)}
 .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:repeating-linear-gradient(90deg,rgba(255,255,255,.035) 0 1px,transparent 1px 24px);-webkit-mask:linear-gradient(90deg,transparent 35%,#000 70%);mask:linear-gradient(90deg,transparent 35%,#000 70%)}
 .hero .inner{position:relative;max-width:1520px;margin:0 auto;padding:0 max(5vw,20px);min-height:inherit;display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);align-items:end}
 .hero .text{align-self:center;padding:130px 0 90px;max-width:620px}
