@@ -271,4 +271,5 @@ a.topic:hover img{opacity:.88}
 h1.h2{font-size:inherit}
 @media(max-width:700px){.lgroups{grid-template-columns:1fr}}
 .row.station{align-items:center}
-.row.station .tlogo{max-width:150px;max-height:38px}
+.row.station{grid-template-columns:130px minmax(0,1fr) 150px}
+.row.station .tlogo{height:30px;width:auto;max-width:150px;max-height:none}
