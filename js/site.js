@@ -55,3 +55,26 @@ document.querySelectorAll('[data-carousel]').forEach(c=>{
   t.addEventListener('dragstart',e=>e.preventDefault());
   setPlay(playing);upd();start();
 });
+/* Bühne: fließendes Band, lässt sich scrollen, wischen und mit der Maus ziehen */
+document.querySelectorAll('[data-srun]').forEach(el=>{
+  const track=el.querySelector('.strack'),reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let hold=false,drag=null,moved=false,last=null,pos=0;
+  const half=()=>track.scrollWidth/2;
+  const wrap=()=>{const h=half();if(h>0&&el.scrollLeft>=h)el.scrollLeft-=h};
+  const step=ts=>{
+    if(last!==null&&!hold&&!drag&&!reduce&&!document.hidden){pos+=(ts-last)*0.04;const h=half();if(h>0&&pos>=h)pos-=h;el.scrollLeft=pos}
+    else pos=el.scrollLeft;
+    last=ts;requestAnimationFrame(step)};
+  el.addEventListener('mouseenter',()=>hold=true);el.addEventListener('mouseleave',()=>hold=false);
+  el.addEventListener('focusin',()=>hold=true);el.addEventListener('focusout',()=>hold=false);
+  el.addEventListener('touchstart',()=>hold=true,{passive:true});
+  el.addEventListener('touchend',()=>setTimeout(()=>hold=false,2500),{passive:true});
+  el.addEventListener('scroll',wrap,{passive:true});
+  el.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse'||e.button!==0)return;drag={x:e.clientX,l:el.scrollLeft};moved=false;el.classList.add('dragging')});
+  window.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x;if(Math.abs(dx)>4)moved=true;let l=drag.l-dx;const h=half();if(l<0){l+=h;drag.l+=h}if(l>=h){l-=h;drag.l-=h}el.scrollLeft=l});
+  window.addEventListener('pointerup',()=>{if(!drag)return;drag=null;el.classList.remove('dragging');pos=el.scrollLeft});
+  el.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopPropagation();moved=false}},true);
+  el.addEventListener('dragstart',e=>e.preventDefault());
+  el.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){el.scrollLeft+=300}if(e.key==='ArrowLeft'){el.scrollLeft=Math.max(0,el.scrollLeft-300)}});
+  requestAnimationFrame(step);
+});

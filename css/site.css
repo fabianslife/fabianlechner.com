@@ -62,11 +62,6 @@ picture>source{display:none}
 .logos{background:var(--night2);color:#fff;padding:40px 0 46px;border-top:1px solid var(--rule-d)}
 .logos .lead{font-size:clamp(19px,1.7vw,23px);font-weight:200;margin-bottom:26px}
 .logos .lead b{font-weight:300}
-.lgrid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0;border-top:1px solid var(--rule-d);border-left:1px solid var(--rule-d)}
-.lgrid li{display:grid;place-items:center;height:92px;padding:14px 18px;border-right:1px solid var(--rule-d);border-bottom:1px solid var(--rule-d)}
-.lgrid img{height:calc(var(--h) * .82);max-height:40px;width:auto;max-width:100%;object-fit:contain;filter:brightness(0) invert(1);opacity:.7}
-.lgrid img.keep{filter:none;opacity:.8}
-.lgrid span{font-size:15px;font-weight:400;color:rgba(255,255,255,.66);text-align:center;line-height:1.3}
 
 /* Abschnitte */
 .band{padding:clamp(72px,8vw,128px) 0}
@@ -267,9 +262,7 @@ footer a:hover{color:#fff}
  .plist a{grid-template-columns:1fr}.plist img{width:100%}
  .article .pair{grid-template-columns:1fr}
  .lgroups{grid-template-columns:1fr}
- .lgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
- .lgrid li{height:76px}
-}
+  }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ctrack{scroll-behavior:auto}}
 .ctrack{cursor:grab}
 .ctrack.dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto;user-select:none}
@@ -280,3 +273,39 @@ footer a:hover{color:#fff}
 .flat img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:2px;filter:saturate(.9)}
 .flat figcaption{margin-top:12px;font-size:14px;color:rgba(255,255,255,.62)}
 @media(max-width:860px){.flat{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Logo-Laufband */
+.lane{overflow:hidden;-webkit-mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.run{display:flex;align-items:center;width:max-content;animation:run 90s linear infinite;will-change:transform}
+.lane:hover .run{animation-play-state:paused}
+.run>*{flex:none;margin:0 36px}
+.run span{font-size:20px;font-weight:400;color:rgba(255,255,255,.62);white-space:nowrap}
+.run img{width:auto;max-width:none;filter:brightness(0) invert(1);opacity:.66}
+.run img.keep{filter:none;opacity:.78}
+@keyframes run{to{transform:translateX(-50%)}}
+/* Bühne als fließendes Band */
+.stage{padding:clamp(56px,6vw,88px) 0 clamp(56px,6vw,80px)}
+.stage .head{margin-bottom:28px}
+.stage h2{font-size:clamp(30px,3vw,42px)}
+.srun{overflow-x:auto;scrollbar-width:none;cursor:grab;-webkit-mask:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);mask:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.srun::-webkit-scrollbar{display:none}
+.srun.dragging{cursor:grabbing;user-select:none}
+.srun.dragging img{pointer-events:none}
+.strack{display:flex;gap:12px;width:max-content;padding:0 12px}
+.strack figure{position:relative;flex:none;margin:0;overflow:hidden;border-radius:2px;background:#1a1f2b}
+.strack img{height:clamp(150px,15vw,210px);width:auto;filter:saturate(.9)}
+.strack figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 12px 10px;font-size:13px;line-height:1.35;color:#fff;background:linear-gradient(0deg,rgba(10,13,20,.85),transparent)}
+/* Blog-Highlights */
+.hl{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);grid-template-rows:auto auto;gap:22px;margin-bottom:clamp(48px,6vw,80px)}
+.hlc{display:flex;flex-direction:column;gap:14px;text-decoration:none}
+.hlc.big{grid-row:span 2}
+.hlc img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:2px;transition:opacity .3s}
+.hlc.big img{aspect-ratio:4/3}
+.hlc:hover img{opacity:.9}
+.hlc:hover h2{color:var(--acc)}
+.hlc .meta{font-size:14px;color:var(--grey);font-weight:400}
+.hlc h2{font-size:24px;font-weight:300;line-height:1.25;letter-spacing:-.01em;margin-top:4px}
+.hlc.big h2{font-size:clamp(28px,2.6vw,38px);font-weight:200;line-height:1.15}
+.hlc .s{margin-top:8px;color:var(--grey);font-size:15px}
+h2.more{font-size:clamp(28px,2.6vw,36px);margin-bottom:24px}
+@media(max-width:860px){.hl{grid-template-columns:1fr}.hlc.big{grid-row:auto}.hlc.big img{aspect-ratio:16/10}}
+@media(prefers-reduced-motion:reduce){.run{animation:none}.lane{overflow-x:auto}}
