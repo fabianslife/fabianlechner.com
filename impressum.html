@@ -45,10 +45,24 @@
 </main>
 <section class="contact" id="kontakt">
   <img src="img/diasorin.jpg" alt="" loading="lazy">
-  <div class="wrap">
-    <h2>Sie planen ein Symposium, eine Fortbildung oder einen Kongress?</h2>
-    <p>Schreiben Sie mir mit Datum, Format und Publikum. Ich melde mich mit einem Themenvorschlag, auf Wunsch als CME-zertifizierte Fortbildung.</p>
-    <div class="mailrow"><span class="mail" id="mail">fabian-lechner@outlook.com</span><button type="button" class="btn" id="copy">Adresse kopieren</button></div>
+  <div class="wrap cgrid">
+    <div>
+      <h2>Sie planen ein Symposium, eine Fortbildung oder einen Kongress?</h2>
+      <p>Schreiben Sie mir mit Datum, Format und Publikum. Ich melde mich mit einem Themenvorschlag, auf Wunsch als CME-zertifizierte Fortbildung.</p>
+      <div class="mailrow"><span class="sub">Oder direkt per E-Mail:</span><span class="mail" id="mail">fabian-lechner@outlook.com</span><button type="button" class="btn" id="copy">Adresse kopieren</button></div>
+    </div>
+    <form class="cform" id="cform" action="https://formsubmit.co/fabian-lechner@outlook.com" method="POST">
+      <input type="hidden" name="_subject" value="Anfrage über fabianlechner.com">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label>Name<input name="Name" required autocomplete="name"></label>
+      <label>E-Mail<input type="email" name="email" required autocomplete="email"></label>
+      <label>Organisation oder Veranstaltung<input name="Organisation" autocomplete="organization"></label>
+      <label>Nachricht<textarea name="Nachricht" rows="5" required placeholder="Datum, Format, Publikum, gewünschtes Thema"></textarea></label>
+      <label class="check"><input type="checkbox" required><span>Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage verarbeitet werden (<a href="datenschutz.html">Datenschutz</a>).</span></label>
+      <button class="btn primary" type="submit">Anfrage senden</button>
+      <p class="status" id="cstatus" role="status"></p>
+    </form>
   </div>
 </section>
 <footer><div class="wrap">

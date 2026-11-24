@@ -209,3 +209,26 @@ a.topic:hover img{opacity:.88}
 .gallery figcaption{font-size:14px;color:var(--grey);margin-top:10px;line-height:1.4}
 @media(max-width:860px){.gallery{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.article .pair{grid-template-columns:1fr}}
+/* Bühnen-Streifen Startseite */
+.strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.strip figure{position:relative;margin:0;overflow:hidden;aspect-ratio:4/3;background:#1a1f2b}
+.strip img{width:100%;height:100%;object-fit:cover}
+.strip figcaption{position:absolute;left:14px;bottom:12px;font-size:13px;color:#fff;text-shadow:0 1px 10px rgba(0,0,0,.7)}
+/* Kopf mit Foto rechts, Gesicht immer sichtbar */
+.pagehead.split img{left:auto;right:0;width:min(48%,760px);filter:saturate(.85) brightness(.82);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 38%);mask-image:linear-gradient(90deg,transparent 0,#000 38%)}
+.pagehead.split::after{background:linear-gradient(0deg,rgba(10,13,20,.55),transparent 35%)}
+/* Kontaktformular */
+.cgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(36px,6vw,96px);align-items:start}
+.cform{display:grid;gap:16px;background:rgba(10,13,20,.55);border:1px solid rgba(255,255,255,.14);padding:clamp(22px,3vw,36px);backdrop-filter:blur(6px)}
+.cform label{display:grid;gap:6px;font-size:14px;color:rgba(255,255,255,.75)}
+.cform input,.cform textarea{font:inherit;font-size:16px;color:#fff;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.22);border-radius:2px;padding:11px 12px}
+.cform input:focus,.cform textarea:focus{outline:2px solid var(--acc-l);outline-offset:1px;border-color:transparent}
+.cform textarea{resize:vertical}
+.cform .check{display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.5}
+.cform .check input{margin-top:3px;width:16px;height:16px;flex:none}
+.cform .check a{color:#fff;text-decoration:underline}
+.cform .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.cform .btn{justify-self:start}
+.cform .status{margin:0;font-size:15px;color:rgba(255,255,255,.85);min-height:1.4em}
+.mailrow .sub{color:rgba(255,255,255,.6);font-size:15px}
+@media(max-width:860px){.cgrid{grid-template-columns:1fr}.strip{grid-template-columns:1fr 1fr}.strip figure:first-child{grid-column:1/-1}.pagehead.split img{width:100%;-webkit-mask-image:none;mask-image:none;filter:saturate(.75) brightness(.42)}}
