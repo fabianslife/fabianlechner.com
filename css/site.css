@@ -337,3 +337,10 @@ h2.more{font-size:clamp(28px,2.6vw,36px);margin-bottom:24px}
 .sopen:focus,.sopen:focus-visible,.lbox,.lbox:focus,.lbox :focus,.lbox :focus-visible{outline:none}
 .lclose{border:0;background:none}
 .lclose:hover{opacity:.7}
+
+/* Bilderimpressionen: ruhig per CSS animiert */
+.srun{overflow:hidden;cursor:default}
+.strack{animation:srun 120s linear infinite;will-change:transform}
+.srun:hover .strack{animation-play-state:paused}
+@keyframes srun{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.strack{animation:none}.srun{overflow-x:auto}}
