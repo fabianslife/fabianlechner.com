@@ -317,3 +317,18 @@ h2.more{font-size:clamp(28px,2.6vw,36px);margin-bottom:24px}
 
 .topics-band{padding:clamp(56px,6vw,96px) 0}
 .srun{-webkit-mask:none;mask:none}
+.sopen{display:block;padding:0;margin:0;border:0;background:none;cursor:zoom-in;color:inherit;font:inherit;text-align:left}
+.srun.dragging .sopen{cursor:grabbing}
+.lbox{border:0;padding:0;background:transparent;max-width:min(92vw,1400px);max-height:92vh;overflow:visible;color:#fff}
+.lbox::backdrop{background:rgba(6,8,12,.9)}
+.lbox img{max-width:min(92vw,1400px);max-height:80vh;width:auto;height:auto;display:block}
+.lcap{display:flex;justify-content:space-between;gap:18px;align-items:baseline;flex-wrap:wrap;margin-top:12px}
+.lcap p{font-size:15px;color:rgba(255,255,255,.8)}
+.lcap .link{color:var(--acc-l)}
+.lclose{position:absolute;top:-48px;right:0;width:40px;height:40px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.35);border-radius:2px;background:none;color:#fff;cursor:pointer}
+.year li:target{background:#EEF2FB;box-shadow:-12px 0 0 #EEF2FB,12px 0 0 #EEF2FB}
+
+/* Kopfbanner: auf allen Seiten gleich hoch */
+.pagehead:not(.noimg):not(.posthead){height:clamp(460px,56vh,560px);padding:0 0 clamp(44px,5vw,72px);display:flex;align-items:flex-end}
+.pagehead:not(.noimg):not(.posthead) .wrap{width:100%}
+@media(max-width:860px){.pagehead:not(.noimg):not(.posthead){height:520px}.pagehead .lead{font-size:17px}}

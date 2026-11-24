@@ -78,3 +78,18 @@ document.querySelectorAll('[data-srun]').forEach(el=>{
   el.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){el.scrollLeft+=300}if(e.key==='ArrowLeft'){el.scrollLeft=Math.max(0,el.scrollLeft-300)}});
   requestAnimationFrame(step);
 });
+/* Bilderimpressionen: Klick öffnet großes Foto mit Link zum Vortrag */
+{
+const box=document.getElementById('lbox');
+if(box){
+  const img=box.querySelector('img'),cap=box.querySelector('.lcap p'),a=box.querySelector('.lcap a');
+  document.querySelectorAll('.sopen').forEach(b=>b.addEventListener('click',e=>{
+    if(document.querySelector('.srun.dragging'))return;
+    const pic=b.querySelector('img'),so=b.querySelector('source');img.src=so?so.srcset.split(',').pop().trim().split(' ')[0]:b.dataset.full;img.alt=pic.alt;
+    cap.textContent=b.dataset.cap||'';a.href=b.dataset.href;a.textContent=b.dataset.label;
+    box.showModal();const srun=document.querySelector('[data-srun]');srun&&srun.dispatchEvent(new Event('mouseenter'))}));
+  box.querySelector('.lclose').addEventListener('click',()=>box.close());
+  box.addEventListener('click',e=>{if(e.target===box)box.close()});
+  box.addEventListener('close',()=>{const srun=document.querySelector('[data-srun]');srun&&srun.dispatchEvent(new Event('mouseleave'))});
+}
+}
