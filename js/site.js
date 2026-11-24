@@ -11,7 +11,7 @@ cp.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(do
 {
 const f=document.getElementById('cform'),st=document.getElementById('cstatus');
 if(f){f.addEventListener('submit',async e=>{e.preventDefault();const b=f.querySelector('button[type=submit]');b.disabled=true;st.textContent='Wird gesendet …';
-try{const r=await fetch(f.action.replace('formsubmit.co/','formsubmit.co/ajax/'),{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)});const j=await r.json().catch(()=>({}));
+try{const ctl=new AbortController();const to=setTimeout(()=>ctl.abort(),60000);const r=await fetch(f.action.replace('formsubmit.co/','formsubmit.co/ajax/'),{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(f))),signal:ctl.signal});clearTimeout(to);const j=await r.json().catch(()=>({}));
 if(r.ok&&String(j.success)!=='false'){f.reset();st.textContent='Danke, Ihre Anfrage ist angekommen. Ich melde mich zeitnah.'}else{throw new Error(j.message||r.status)}}
 catch(err){st.innerHTML='Das hat leider nicht geklappt. Bitte schreiben Sie direkt an <a href="mailto:'+document.getElementById('mail').textContent+'">'+document.getElementById('mail').textContent+'</a>.'}
 b.disabled=false})}
